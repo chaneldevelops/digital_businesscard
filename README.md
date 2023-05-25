@@ -1,5 +1,5 @@
 
-# Digital Business Card
+# Digital Business Card 👩🏽‍💼
 
 This is a digital business card created with React. It showcases my information as a front-end developer and provides buttons for contacting me through email and LinkedIn. The business card also includes a section displaying my interests and an about me section.
 
