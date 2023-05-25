@@ -12,7 +12,9 @@ export default function Info() {
         <h5 className="info-role">Creative Front-End Developer</h5>
         <p className="info-website">
             <a href="https://chaneldevelops.github.io" 
-            target="_blank"></a>
+            target="_blank">
+               My Portfolio 
+            </a>
         </p>
         
         <div className="contact-btns">
