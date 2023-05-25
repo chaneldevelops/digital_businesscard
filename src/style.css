@@ -1,7 +1,17 @@
+/* FONTS */ 
 
 
 
+/*  CUSTOM PROPS */
+:root {
+    --bkg-color: #343b47;
+    --secondary-color: #FFA41C;
+    --white: #fff;
+    --accent-color: #DC1919;
+    --darker-bkg: #1e232a;
+}
 
 body {
-    background-color: black;
+    background-color: var(--bkg-color);
+    color: var(--white);
 }
