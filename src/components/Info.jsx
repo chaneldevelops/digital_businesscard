@@ -1,6 +1,6 @@
 import React from "react"
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faEnvelope, faLinkedin } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -12,11 +12,13 @@ export default function Info() {
         <h5>Creative Front-End Developer</h5>
         
         <div className="contact-btns">
-            <button>
-            {/* <FontAwesomeIcon icon="fa-solid fa-envelope" /> */}
-                 Email<a href="mailto:chanel.developsdesigns@gmail.com">
-                </a>
+            <a href="mailto:chanel.developsdesigns@gmail.com">
+                <button>
+            <FontAwesomeIcon icon={faEnvelope} className="email-icon" /> {/* email icon */}
+                 Email
             </button>
+            </a>
+            
 
             <button>
             {/* <FontAwesomeIcon icon="fa-brands fa-linkedin" /> */}
