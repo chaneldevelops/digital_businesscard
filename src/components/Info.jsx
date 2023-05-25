@@ -6,8 +6,8 @@ import React from "react"
 
 
 export default function Info() {
-    <div>
-        <img src="" alt="" />
+   return (<div className="info">
+        <img src="/chanel-photo.jpg" alt="photo of Chanel" />
         <h1>Chanel Waters</h1>
         <h5>Front-End Developer</h5>
         
@@ -24,5 +24,5 @@ export default function Info() {
                 </a>
             </button>
         </div>
-    </div>
+    </div>)
 }
