@@ -20,13 +20,13 @@ export default function Info() {
         <div className="contact-btns">
             <a href="mailto:chanel.developsdesigns@gmail.com">
                 <button>
-            <FontAwesomeIcon icon={faEnvelope} className="email-icon" /> {/* email icon */}
+            <FontAwesomeIcon icon={faEnvelope} className="info-icon" /> {/* email icon */}
                  Email
             </button>
             </a>
             <a href="https://www.linkedin.com/in/chanel-thedesigner/">
                 <button>
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon icon={faLinkedin} className="info-icon"/>
                  Connect
             </button>
             </a>

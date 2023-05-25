@@ -37,6 +37,10 @@ h1, h3 {
     font-family: "Michroma", sans-serif;
 }
 
+p {
+    font-size: 1.2rem;
+}
+
 
 /* App.jsx */
 .main-card {
@@ -63,11 +67,12 @@ img {
 .info-name {
     margin-top: 1rem;
     padding: 0 2rem;
+    font-size: 3rem;
 }
 
 .info-role {
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     margin-bottom: 0.8rem;
 }
 
@@ -79,8 +84,28 @@ img {
 
 .info-website a {
     color: var(--secondary-color);
+    text-decoration: none;
 }
 
-.email-icon {
+.info-icon {
     margin-right: 10px;
+    
 }
+
+button {
+    padding: 0.6rem 3rem;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+}
+
+
+/* ABOUT */
+.about {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-heading, .interests-heading {
+    margin-bottom: 0.8rem;
+}
+
