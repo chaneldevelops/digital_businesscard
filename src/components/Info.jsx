@@ -8,8 +8,12 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 export default function Info() {
    return (<div className="info">
         <img src="/chanel-photo.jpg" alt="photo of Chanel" />
-        <h1>Chanel Waters</h1>
-        <h5>Creative Front-End Developer</h5>
+        <h1 className="info-name">Chanel Waters</h1>
+        <h5 className="info-role">Creative Front-End Developer</h5>
+        <p className="info-website">
+            <a href="https://chaneldevelops.github.io" 
+            target="_blank"></a>
+        </p>
         
         <div className="contact-btns">
             <a href="mailto:chanel.developsdesigns@gmail.com">

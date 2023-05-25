@@ -30,14 +30,43 @@ body {
     font-family: "Overpass", sans-serif;
 }
 
-/* INFO SECTION */
-img {
-    display: block;
-    width: 100%;
-}
 
 
 /* FONT CONFIG */
 h1, h3 {
     font-family: "Michroma", sans-serif;
+}
+
+
+/* App.jsx */
+.main-card {
+    background-color: var(--darker-bkg);
+    border-radius: 10px;
+}
+
+.about-me {
+    padding: 0 2em 2em 2em;
+}
+
+
+/* INFO SECTION */
+.info {
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+    border-radius: 10px, 10px 0 0;
+}
+
+.info-name {
+    margin-top: 1rem;
+    padding: 0 2rem;
+}
+
+.info-role {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
