@@ -46,7 +46,7 @@ p {
 .main-card {
     background-color: var(--darker-bkg);
     border-radius: 3rem;
-    margin: 6rem 5rem;
+    margin: 8rem 10rem 10rem 10rem;
 }
 
 .about-me {
@@ -91,17 +91,22 @@ img {
 
 .info-icon {
     margin-right: 10px;
+    height: 1.6rem;
     
+}
+
+.contact-btns {
+    display: inline-block;
 }
 
 button {
     display: inline-block;
     /* align-items: center; */
     width: 40%;
-    padding: 0.6rem 3rem;
+    padding: 0.6rem 8rem;
     margin-right: 1rem;
     margin-left: auto;
-    font-size: 1.3rem;
+    font-size: 1.3em;
 }
 
 
@@ -140,3 +145,17 @@ button {
     height: 2.5rem;
     color: var(--bkg-color);
 }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 871px) {
+    .info-icon {
+        margin-right: 10px;
+        height: 1rem;
+        
+    }
+
+    
+    button {
+        padding: 0.4rem 2rem;
+    }
+  }
