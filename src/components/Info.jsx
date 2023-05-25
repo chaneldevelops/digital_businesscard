@@ -1,6 +1,6 @@
 import React from "react"
-// import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-// import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faEnvelope, faLinkedin } from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -9,7 +9,7 @@ export default function Info() {
    return (<div className="info">
         <img src="/chanel-photo.jpg" alt="photo of Chanel" />
         <h1>Chanel Waters</h1>
-        <h5>Front-End Developer</h5>
+        <h5>Creative Front-End Developer</h5>
         
         <div className="contact-btns">
             <button>
