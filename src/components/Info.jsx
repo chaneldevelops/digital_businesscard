@@ -24,7 +24,8 @@ export default function Info() {
                  Email
             </button>
             </a>
-            <a href="https://www.linkedin.com/in/chanel-thedesigner/">
+            <a href="https://www.linkedin.com/in/chanel-thedesigner/"
+            target="_blank">
                 <button>
             <FontAwesomeIcon icon={faLinkedin} className="info-icon"/>
                  Connect
