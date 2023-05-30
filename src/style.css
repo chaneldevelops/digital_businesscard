@@ -158,4 +158,8 @@ button {
     button {
         padding: 0.4rem 2rem;
     }
+
+    a {
+        color: var(--bkg-color);
+    }
   }
